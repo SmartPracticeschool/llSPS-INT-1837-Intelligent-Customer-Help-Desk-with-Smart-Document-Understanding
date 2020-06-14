@@ -1,0 +1,2378 @@
+{
+  "intents": [
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "display",
+      "examples": [
+        {
+          "text": "screen"
+        },
+        {
+          "text": "front"
+        },
+        {
+          "text": "display"
+        },
+        {
+          "text": "front pannel"
+        },
+        {
+          "text": "dsiplay"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Agent help"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "Bot_Control_Standby",
+      "examples": [
+        {
+          "text": "Be back later"
+        },
+        {
+          "text": "Back again soon"
+        },
+        {
+          "text": "Wait"
+        },
+        {
+          "text": "Out for a break"
+        },
+        {
+          "text": "Need a minute here"
+        },
+        {
+          "text": "Let me see"
+        },
+        {
+          "text": "Keep holding"
+        },
+        {
+          "text": "Just hold on"
+        },
+        {
+          "text": "Just a sec"
+        },
+        {
+          "text": "In a moment"
+        },
+        {
+          "text": "I would like to put you on hold"
+        },
+        {
+          "text": "I will be back"
+        },
+        {
+          "text": "I want stop a moment"
+        },
+        {
+          "text": "Hold on"
+        },
+        {
+          "text": "Give me a second"
+        },
+        {
+          "text": "Give me a moment"
+        },
+        {
+          "text": "Give me a few minutes to get together"
+        },
+        {
+          "text": "Can you wait for me?"
+        },
+        {
+          "text": "Can you give me a moment?"
+        },
+        {
+          "text": "Be patient with me"
+        }
+      ],
+      "description": "Indicate a delay in providing input to the bot."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey how are you doing"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "price",
+      "examples": [
+        {
+          "text": "pricing"
+        },
+        {
+          "text": "bucks"
+        },
+        {
+          "text": "pocket"
+        },
+        {
+          "text": "money"
+        },
+        {
+          "text": "cost"
+        },
+        {
+          "text": "price"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "buy",
+      "examples": [
+        {
+          "text": "where can i buy"
+        },
+        {
+          "text": "i am ready to shell out some bucks"
+        },
+        {
+          "text": "buy"
+        },
+        {
+          "text": "i want to buy"
+        },
+        {
+          "text": "purchase"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "bye",
+      "examples": [
+        {
+          "text": "bye bye"
+        },
+        {
+          "text": "tata"
+        },
+        {
+          "text": "goodbye"
+        },
+        {
+          "text": "ciao"
+        },
+        {
+          "text": "ttyl"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Utilities_Start_Service",
+      "examples": [
+        {
+          "text": "How can I start electricity?"
+        },
+        {
+          "text": "Add the electricity to home"
+        },
+        {
+          "text": "Explain how to connect the electric service"
+        },
+        {
+          "text": "How I get power for the first time?"
+        },
+        {
+          "text": "How can I turn on the gas?"
+        },
+        {
+          "text": "How do I arrange for my service to begin?"
+        },
+        {
+          "text": "How do I turn the lights on in my new home?"
+        },
+        {
+          "text": "How to I get my electricity supply hooked up?"
+        },
+        {
+          "text": "How to get my power supply connected?"
+        },
+        {
+          "text": "How to reactivate my gas service?"
+        },
+        {
+          "text": "I need information on requesting service."
+        },
+        {
+          "text": "I want a reconnection of my gas service"
+        },
+        {
+          "text": "I wish to start an electrical supply what are the steps to achieving this?"
+        },
+        {
+          "text": "I'd like to get electricity in my house"
+        },
+        {
+          "text": "Start utilities."
+        },
+        {
+          "text": "The house is backed up please check if the gas is working and begin the supply of gas to the house"
+        },
+        {
+          "text": "We completed the required building inspection so please connect the gas."
+        },
+        {
+          "text": "What is the process for starting this service?"
+        },
+        {
+          "text": "Who do I need to contact in order to get a gas supply to my location?"
+        },
+        {
+          "text": "Would you please fix electricity connection?"
+        }
+      ],
+      "description": "Start a service."
+    },
+    {
+      "intent": "Bot_Control_Change_Subject",
+      "examples": [
+        {
+          "text": "Another thing"
+        },
+        {
+          "text": "A different matter"
+        },
+        {
+          "text": "Discuss something else"
+        },
+        {
+          "text": "Let us talk about something else"
+        },
+        {
+          "text": "Let us change the topic"
+        },
+        {
+          "text": "I have one more question"
+        },
+        {
+          "text": "Here is another issue"
+        },
+        {
+          "text": "Help me with this other question"
+        },
+        {
+          "text": "Chat about something else"
+        },
+        {
+          "text": "Talk about something else"
+        },
+        {
+          "text": "Change topic"
+        },
+        {
+          "text": "Can we talk about something else?"
+        }
+      ],
+      "description": "Change to a different topic."
+    },
+    {
+      "intent": "Utilities_Outage_Status",
+      "examples": [
+        {
+          "text": "Is there a power outage in my city?"
+        },
+        {
+          "text": "Is there an electric failure?"
+        },
+        {
+          "text": "I need you to tell me how long it takes to fix the blackout?"
+        },
+        {
+          "text": "Which locations don't have any power?"
+        },
+        {
+          "text": "Where is the service interrupted?"
+        },
+        {
+          "text": "Where can I search areas for outages?"
+        },
+        {
+          "text": "When will this outage be over?"
+        },
+        {
+          "text": "What is time frame for lights back on?"
+        },
+        {
+          "text": "When will the fuel system be back on?"
+        },
+        {
+          "text": "What happened to the electricity?"
+        },
+        {
+          "text": "What areas are affected by the black out?"
+        },
+        {
+          "text": "Power has just returned at my house"
+        },
+        {
+          "text": "It's thundering out, will I lose power?"
+        },
+        {
+          "text": "Is there an status update on the outage in fountain valley?"
+        },
+        {
+          "text": "Has the company estimated how long this will take?"
+        },
+        {
+          "text": "Do you have a timeframe for service resume?"
+        },
+        {
+          "text": "Can you tell me when the service is going to return?"
+        },
+        {
+          "text": "Are you able to repair my blackout asap?"
+        },
+        {
+          "text": "Is the power out in my area?"
+        },
+        {
+          "text": "Is the power out locally?"
+        }
+      ],
+      "description": "Request current information on a disruption of service."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "setup",
+      "examples": [
+        {
+          "text": "setting up"
+        },
+        {
+          "text": "how to setup my device"
+        },
+        {
+          "text": "tel me about setting up phone"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "You got me"
+        },
+        {
+          "text": "To be honest, I m really not sure"
+        },
+        {
+          "text": "No idea"
+        },
+        {
+          "text": "No clue"
+        },
+        {
+          "text": "I m not sure what will make you happy"
+        },
+        {
+          "text": "I m not yet convinced"
+        },
+        {
+          "text": "I haven't got a clue"
+        },
+        {
+          "text": "I m not certain I get what you re saying"
+        },
+        {
+          "text": "I have no idea, actually"
+        },
+        {
+          "text": "I have no idea what you are looking for"
+        },
+        {
+          "text": "I don t know what you want"
+        },
+        {
+          "text": "I don t know what you need"
+        }
+      ],
+      "description": "Indicate no definite answer to a question."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "recovery",
+      "examples": [
+        {
+          "text": "recovery"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Goodbye"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Can you tell a joke?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "refreshrate",
+      "examples": [
+        {
+          "text": "refreshes"
+        },
+        {
+          "text": "fast screen"
+        },
+        {
+          "text": "refresh rate"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "Let's pick this up from the top again."
+        },
+        {
+          "text": "One more time from the beginning"
+        },
+        {
+          "text": "Please initiate from the beginning"
+        },
+        {
+          "text": "I would like to start all over"
+        },
+        {
+          "text": "Let us reopen this again."
+        },
+        {
+          "text": "Let's go back to square one"
+        },
+        {
+          "text": "Please reset"
+        },
+        {
+          "text": "Please start a new chat"
+        },
+        {
+          "text": "Restart"
+        },
+        {
+          "text": "Start over"
+        },
+        {
+          "text": "We need a do-over"
+        },
+        {
+          "text": "We will need to begin again"
+        },
+        {
+          "text": "Actually, let's start over"
+        },
+        {
+          "text": "Back to the beginning"
+        },
+        {
+          "text": "Back to the top"
+        },
+        {
+          "text": "Begin over!"
+        },
+        {
+          "text": "Can we please start over?"
+        },
+        {
+          "text": "How can I start over?"
+        },
+        {
+          "text": "I need to reset."
+        },
+        {
+          "text": "I want start from the beginning"
+        }
+      ],
+      "description": "Restart bot or current flow."
+    },
+    {
+      "intent": "Bot_Control_Reject_Response",
+      "examples": [
+        {
+          "text": "You didn't understand me"
+        },
+        {
+          "text": "You're misunderstanding me"
+        },
+        {
+          "text": "I do not think it is the answer?"
+        },
+        {
+          "text": "I disagree"
+        },
+        {
+          "text": "Bad response"
+        },
+        {
+          "text": "No I'm fine thanks"
+        },
+        {
+          "text": "It is not what I was looking for"
+        },
+        {
+          "text": "It is not what I want"
+        },
+        {
+          "text": "I wasn't looking for that"
+        },
+        {
+          "text": "I don't want that"
+        },
+        {
+          "text": "I don't need that"
+        },
+        {
+          "text": "You did not understand what I asked"
+        },
+        {
+          "text": "Wrong response"
+        },
+        {
+          "text": "That was wrong, try again"
+        },
+        {
+          "text": "That is not true"
+        },
+        {
+          "text": "That answer is incorrect"
+        },
+        {
+          "text": "Not the right response"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "You did not understand what I said"
+        },
+        {
+          "text": "That was not my intent"
+        },
+        {
+          "text": "That sounds like the wrong response"
+        }
+      ],
+      "description": "Indicate the bot's response does not address a question."
+    },
+    {
+      "intent": "greetings",
+      "examples": [
+        {
+          "text": "hey"
+        },
+        {
+          "text": "kia ora"
+        },
+        {
+          "text": "hallo"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "bonjour"
+        },
+        {
+          "text": "how are you"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Clarification",
+      "examples": [
+        {
+          "text": "What are you talking about?"
+        },
+        {
+          "text": "I didn't catch that"
+        },
+        {
+          "text": "I did not quite understand what you gave me"
+        },
+        {
+          "text": "Explains"
+        },
+        {
+          "text": "Come again?"
+        },
+        {
+          "text": "Can you say that again please?"
+        },
+        {
+          "text": "I didn't quite understand what you said"
+        },
+        {
+          "text": "I didn't understand that properly"
+        },
+        {
+          "text": "I don't get it"
+        },
+        {
+          "text": "I don't understand what you're saying"
+        },
+        {
+          "text": "I don't understand"
+        },
+        {
+          "text": "I need more information"
+        },
+        {
+          "text": "Let's try to say that again more clearly, shall we?"
+        },
+        {
+          "text": "What are you referring to?"
+        },
+        {
+          "text": "What are you saying?"
+        },
+        {
+          "text": "What do you mean by that?"
+        },
+        {
+          "text": "What do you mean?"
+        }
+      ],
+      "description": "Repeat or clarify last statement."
+    },
+    {
+      "intent": "thank",
+      "examples": [
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thankyou"
+        },
+        {
+          "text": "thnx"
+        },
+        {
+          "text": "tysm"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "thx"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "connectivity",
+      "examples": [
+        {
+          "text": "how to set up nfc"
+        },
+        {
+          "text": "i have query regarding wifi"
+        },
+        {
+          "text": "cellular data"
+        },
+        {
+          "text": "tell me about nfc"
+        },
+        {
+          "text": "wifi"
+        },
+        {
+          "text": "nfc"
+        },
+        {
+          "text": "bluetooth"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Ignore_Undo",
+      "examples": [
+        {
+          "text": "Actually, I take that back"
+        },
+        {
+          "text": "Hold on! I think I want to do it differently."
+        },
+        {
+          "text": "I change my mind."
+        },
+        {
+          "text": "I did not mean that?"
+        },
+        {
+          "text": "I didn't mean to do that actually, let's go back"
+        },
+        {
+          "text": "Ignore this"
+        },
+        {
+          "text": "It's not what I mean"
+        },
+        {
+          "text": "Let us redo that again!"
+        },
+        {
+          "text": "Never mind"
+        },
+        {
+          "text": "Never"
+        },
+        {
+          "text": "Not yet"
+        },
+        {
+          "text": "Nothing"
+        },
+        {
+          "text": "Wait! Let's back up few steps and do that again"
+        },
+        {
+          "text": "Cancel"
+        }
+      ],
+      "description": "Ask the bot to take one step back."
+    },
+    {
+      "intent": "Bot_Control_Confirm_Presence",
+      "examples": [
+        {
+          "text": "Is anybody here?"
+        },
+        {
+          "text": "Is anybody home?"
+        },
+        {
+          "text": "Speak to me if you are there."
+        },
+        {
+          "text": "Have I lost you?"
+        },
+        {
+          "text": "Did you hear what I said?"
+        },
+        {
+          "text": "Did you go somewhere?"
+        },
+        {
+          "text": "Are you there?"
+        },
+        {
+          "text": "Are you still here with me?"
+        },
+        {
+          "text": "Are you still around?"
+        },
+        {
+          "text": "Are you on?"
+        },
+        {
+          "text": "Are you leaving me?"
+        },
+        {
+          "text": "Anyone there?"
+        },
+        {
+          "text": "Am I talking to someone?"
+        },
+        {
+          "text": "Where'd you go?"
+        },
+        {
+          "text": "You around?"
+        },
+        {
+          "text": "I am still holding"
+        }
+      ],
+      "description": "Ask the bot to indicate that it is available."
+    },
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "Very well. Let's do it."
+        },
+        {
+          "text": "You read my mind"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "Yeah, that's it!"
+        },
+        {
+          "text": "This is alright"
+        },
+        {
+          "text": "That's exactly what I want"
+        },
+        {
+          "text": "That is what I need"
+        },
+        {
+          "text": "That is the proper response."
+        },
+        {
+          "text": "That is right"
+        },
+        {
+          "text": "That is precisely what I was looking for"
+        },
+        {
+          "text": "Sweet"
+        },
+        {
+          "text": "Sure thing!"
+        },
+        {
+          "text": "Indeed!"
+        },
+        {
+          "text": "I like that"
+        },
+        {
+          "text": "I agree"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "Got it"
+        },
+        {
+          "text": "For sure!"
+        },
+        {
+          "text": "Correct"
+        },
+        {
+          "text": "All right"
+        },
+        {
+          "text": "Affirmative. That's what I'm looking for."
+        }
+      ],
+      "description": "Acknowledge that the response satisfies a question."
+    },
+    {
+      "intent": "find_device",
+      "examples": [
+        {
+          "text": "lost"
+        },
+        {
+          "text": "smartphone lost"
+        },
+        {
+          "text": "how to find my phone"
+        },
+        {
+          "text": "handset is lost"
+        },
+        {
+          "text": "find my device"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "Utilities_Stop_Service",
+      "examples": [
+        {
+          "text": "We will not be for a few months. can you cut off energy during the holidays?"
+        },
+        {
+          "text": "Turn off my service."
+        },
+        {
+          "text": "Turn off my electricity supply."
+        },
+        {
+          "text": "Take down the utility"
+        },
+        {
+          "text": "Remove us from the power grid"
+        },
+        {
+          "text": "I'm not interested in your service"
+        },
+        {
+          "text": "I'm leaving this solar panel provider for another one."
+        },
+        {
+          "text": "I'm done with this service"
+        },
+        {
+          "text": "I'm at the end of my tether with your company."
+        },
+        {
+          "text": "I'd like to cancel the service for my gas."
+        },
+        {
+          "text": "I would like to discontinue the services."
+        },
+        {
+          "text": "I don't need a power supply any longer."
+        },
+        {
+          "text": "I am finished with the solar panel service."
+        },
+        {
+          "text": "How do I shut off the gas and electricity?"
+        },
+        {
+          "text": "Discontinue gas."
+        },
+        {
+          "text": "Disconnect form the electric power"
+        },
+        {
+          "text": "Could you please turn off my lights?"
+        },
+        {
+          "text": "Can you suspend my electric supply for a while as I am going on an extended vacation?"
+        },
+        {
+          "text": "Can you disconnect me from the service?"
+        },
+        {
+          "text": "We no longer wish to be connected to the grid"
+        }
+      ],
+      "description": "Stop a service."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "refresh_rate",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "refresh rate",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "price",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bucks",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pocket",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "money",
+          "synonyms": [
+            "value"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pricing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cost",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "specs",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "overall specs",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "specs",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "specifications",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "overview",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ram",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "8 GB",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ram",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "12 GB",
+          "synonyms": [
+            "10 GB",
+            "16GB"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "display",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "display",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "screen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "resolution",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "front pannel",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://eu-gb.functions.cloud.ibm.com/api/v1/web/si05202000354%40smartinternz.com_dev/default/data_fetcher.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "sry can't help with this"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1591376875900",
+      "conditions": "anything_else",
+      "dialog_node": "response_1_1591376939637",
+      "previous_sibling": "response_9_1591376933783"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "\"<?$webhook_result_2.passages[0].passage_text?>\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1591376875900",
+      "conditions": "$webhook_result_2",
+      "dialog_node": "response_9_1591376933783"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_6_1591394452899",
+      "conditions": "anything_else",
+      "dialog_node": "response_5_1591394506015",
+      "previous_sibling": "response_6_1591394500148"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "\"<?$webhook_result_3.passages[0].passage_text?>\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1591394452899",
+      "conditions": "$webhook_result_3",
+      "dialog_node": "response_6_1591394500148"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_3_1591395386761",
+      "conditions": "anything_else",
+      "dialog_node": "response_3_1591395420241",
+      "previous_sibling": "response_10_1591395417631"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "\"<?$webhook_result_4.passages[0].passage_text?>\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1591395386761",
+      "conditions": "$webhook_result_4",
+      "dialog_node": "response_10_1591395417631"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry can't help you with this"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1591304895688",
+      "conditions": "anything_else",
+      "dialog_node": "response_8_1591350086216",
+      "previous_sibling": "response_3_1591350080594"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "\"<?$webhook_result_1.passages[0].passage_text?>\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1591304895688",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_3_1591350080594"
+    },
+    {
+      "type": "standard",
+      "title": "setup",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "input": "<?input_text?>"
+          },
+          "result_variable": "webhook_result_3"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#setup",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1591394452899",
+      "previous_sibling": "node_6_1591307137779"
+    },
+    {
+      "type": "standard",
+      "title": "bye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "bye bye , have a nice day!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#bye || #General_Ending",
+      "dialog_node": "node_4_1591303122836",
+      "previous_sibling": "node_4_1591303777577",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "specs",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For overall specifications and overview of the device visit <a href=\"https://www.oneplus.in/7t-pro\">THIS</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#specs || @specs",
+      "dialog_node": "node_7_1591306517306",
+      "previous_sibling": "node_3_1591376875900"
+    },
+    {
+      "type": "standard",
+      "title": "price",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The base model with 8gb ram and 256gb storage starts from 50,000 and goes upto 60k for 12 gb ram and 512 gb storage"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@price || #price",
+      "dialog_node": "node_7_1591306822635",
+      "previous_sibling": "node_6_1591394452899"
+    },
+    {
+      "type": "standard",
+      "title": "refresh",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "a smooth 90Hz"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1591304895688"
+      },
+      "conditions": "@refresh_rate || #refreshrate",
+      "dialog_node": "node_1_1591303994780",
+      "previous_sibling": "node_7_1591306517306"
+    },
+    {
+      "type": "standard",
+      "title": "connectivity",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "input": "<?input_text?>"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#connectivity",
+      "dialog_node": "node_9_1591304895688",
+      "previous_sibling": "node_1_1591303994780"
+    },
+    {
+      "type": "standard",
+      "title": "thnks",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "your welcome, any further assistance that i can provide?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#thank || #General_Positive_Feedback",
+      "dialog_node": "node_6_1591307137779",
+      "previous_sibling": "node_3_1591395386761"
+    },
+    {
+      "type": "standard",
+      "title": "buy",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "here's the link to buy OnePlus 7T Pro <a href=\"https://www.oneplus.in/oneplus-7t-pro?from=7t-pro\">BUY</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#buy",
+      "dialog_node": "node_10_1591394627068",
+      "previous_sibling": "node_4_1591303122836"
+    },
+    {
+      "type": "standard",
+      "title": "find_device",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "input": "<?input_text?>"
+          },
+          "result_variable": "webhook_result_2"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#find_device",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1591376875900",
+      "previous_sibling": "node_7_1591306822635"
+    },
+    {
+      "type": "standard",
+      "title": "ram",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ram starts from 8GB and goes upto 16GB"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "ram",
+      "dialog_node": "node_5_1591905752293",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "display",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "display size is 6.67 inch with a quad hd resolution"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@display && #display",
+      "dialog_node": "node_4_1591303777577",
+      "previous_sibling": "node_9_1591304895688"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "It looks like we are not getting along today . would you like to talk to a human agent instead? if so please contact us at 8802386600 or email us at avc@gmail.com"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else || #General_Negative_Feedback",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_10_1591394627068",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "recover",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "input": "<?input_text?>"
+          },
+          "result_variable": "webhook_result_4"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#recovery",
+      "dialog_node": "node_3_1591395386761",
+      "previous_sibling": "node_2_1591302507769"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello , I am a chatbot here to help you with any querries on brand new OnePlus phone <b>THE ONEPLUS 7T PRO</b>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome",
+      "previous_sibling": "node_2_1591905795056"
+    },
+    {
+      "type": "standard",
+      "title": "greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How may I help you Sir/Madam?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Greetings || #greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1591302507769",
+      "previous_sibling": "node_5_1591905752293",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "HOw are you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am fine thank you . How are you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "how a",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1591905795056"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "oneplus manual",
+  "language": "en",
+  "description": ""
+}
